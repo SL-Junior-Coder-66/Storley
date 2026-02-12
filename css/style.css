@@ -1,6 +1,18 @@
 .navbar-brand img{
     width: 100px;
 }
-.navbar{
+.navbar-nav{
+    display: flex;
+    flex-direction: row !important;
+    gap: 20px;
+}
+.nav-link{
+    color:white !important;
+}
+header{
+    padding: 20px 0px;
     background-color: #01477a;
+}
+.navbar-toggler-icon{
+    color:white;
 }
